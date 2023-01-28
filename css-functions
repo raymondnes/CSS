@@ -1,0 +1,23 @@
+background - Sets the background color and/or image of an element.
+border - Sets the border properties of an element.
+color - Sets the text color of an element.
+display - Specifies the type of box an element should generate.
+font-size - Sets the font size of text.
+font-weight - Sets the boldness of text.
+height - Sets the height of an element.
+line-height - Sets the height of a line of text.
+margin - Sets the margins around an element.
+padding - Sets the padding around an element.
+text-align - Sets the alignment of text.
+width - Sets the width of an element.
+overflow - Specifies what happens if content overflows an element's box.
+position - Specifies the type of positioning method used for an element.
+left, right, top, bottom - Specifies the position of an element relative to its parent container.
+float - Specifies whether or not an element should float.
+clear - Specifies on which sides of an element floating elements are not allowed.
+visibility - Specifies whether or not an element is visible.
+z-index - Specifies the stack order of an element.
+opacity - Specifies the transparency of an element.
+transition - Specifies the transition properties of an element.
+transform - Specifies how an element should be transformed.
+animation - Specifies the animation properties of an element.
