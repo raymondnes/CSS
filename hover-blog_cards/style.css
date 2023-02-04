@@ -145,3 +145,17 @@ body {
     font-size: 18px;
   }
 }
+
+.videoWrapper {
+  height: auto;
+  width: 723px;
+  position: relative;
+  overflow: hidden;
+}
+
+.videoWrapper iframe {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
