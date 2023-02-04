@@ -1,0 +1,88 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: #ebebeb;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.nav-item {
+  flex-grow: 1;
+  max-width: 100%;
+  padding: 8px 0;
+  color: #666;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.nav-item.highlight{
+  background-color: limegreen;
+  color: #fff;
+  margin: 0 8px;
+  transform: translatey(8px);
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item .feather{
+  margin-bottom: 4px;
+}
+
+.nav-item.highlight .feather{
+  stroke: #fff;
+}
+
+a:hover .feather * {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: icon-draw 1s ease-in-out forwards;
+}
+
+.nav-item span {
+  display: block;
+  margin: 0 auto;
+  padding: 0 4px;
+  font-size: 0.8em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 15vw;
+}
+
+nav:hover .nav-item:not(:hover):not(.highlight) {
+  opacity: 0.33;
+}
+
+/* ------------------------ Icons ------------------------ */
+
+.feather {
+  width: 24px;
+  height: 24px;
+  stroke: limegreen;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+@keyframes icon-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
