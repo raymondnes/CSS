@@ -46,9 +46,16 @@ body
    height: 100%;
    border-radius: 50%;
    z-index: -1;
-   background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+   background: linear-gradient(#fffb14,#4bff3b,#008cff);
    filter: blur(20px);
    animation: animate 0.5s linear infinite;
+}
+
+p
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
 }
 @keyframes animate
 {
@@ -58,6 +65,6 @@ body
     }
     100%
     {
-        transform: rotate(360deg);
+        transform: rotate(-360deg);
     }
 }
