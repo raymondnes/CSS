@@ -22,6 +22,12 @@ h1
     font-family: san-serif;
     letter-spacing: 0.2em;
 }
+
+img
+{
+    width: 50%;                                                                                                                                 ;
+}
+
 video
 {
     object-fit: cover;
@@ -29,7 +35,7 @@ video
 h1 span
 {
     display: inline-block;
-    animation: animate 1s linear forwards;
+    animation: animate 1.5s linear forwards;
 }
 @keyframes animate
 {
@@ -73,4 +79,10 @@ h1 span:nth-child(6)
 h1 span:nth-child(7)
 {
     animation-delay: 4.0s;
+}
+
+div
+{
+    background: red;
+    min-width: 100vw;
 }
