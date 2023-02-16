@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header
+{
+    margin: 10px auto;
+    letter-spacing: 0.15em;
+    width: auto;
+    height: 100px;
+}
+.main-header h1
+{
+    color: #774C2E;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+
+.main-header h1::before
+{
+    content: open-quote;
+    width: 20px;
+    height: 20px;
+}
+
+.main-header h1::after
+{
+    content: close-quote;
+    width: 20px;
+    height: 20px;
+}
+
+nav
+{
+    display: flex;
+    margin: 0 auto 0;
+    padding: 0;
+    justify-content: space-between;
+    position: relative;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    width: 590px;
+    height: 50px;
+    background: #9E8B71;
+    border-radius: 8px;   
+}
+
+nav a
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .animation
+{
+    position: absolute;
+    height: 10px;
+    top: 0;
+    z-index: 0;
+    background: #C99025;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+a:nth-child(1)
+{
+    width: 100px;
+}
+nav .start-home,a:nth-child(1):hover~.animation
+{
+    width: 100px;
+    left: 0;
+}
+
+a:nth-child(2)
+{
+    width: 110px;
+}
+nav .start-menu,a:nth-child(2):hover~.animation
+{
+    width: 110px;
+    left: 100px;
+}
+a:nth-child(3)
+{
+    width: 100px;
+}
+nav .start-recipes,a:nth-child(3):hover~.animation
+{
+    width: 100px;
+    left: 210px;
+}
+a:nth-child(4)
+{
+    width: 160px;
+}
+nav .start-order_now,a:nth-child(4):hover~.animation
+{
+    width: 160px;
+    left: 310px;
+}
+a:nth-child(5)
+{
+    width: 120px;
+}
+nav .start-contact,a:nth-child(5):hover~.animation
+{
+    width: 120px;
+    left: 470px;
+}
