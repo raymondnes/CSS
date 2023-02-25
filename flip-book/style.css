@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+    background-color: powderblue;
+}
+
+/* Book */
+.book
+{
+    border: 1px solid black;
+    position: relative;
+    width: 350px;
+    height: 500px;
+}
+
+.paper
+{
+    border: 1px solid red;
+    position: absolute; /* this feature allows more papers added to the book to overlap one after the other */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.front,
+.back
+{
+    background-color: whitesmoke;
+    position: absolute; /* this feature allows the front page to be on top of the back page */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.front
+{
+    z-index: 1;   
+}
+
+.back
+{
+    z-index: 0;   
+}
+
+.front-content,
+.back-content
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* controller buttons */
+button
+{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:focus
+{
+    outline: none;
+}
+
+button:hover i
+{
+    color: #636363;
+}
+
+i
+{
+    font-size: 50px;
+    
+}
