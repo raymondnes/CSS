@@ -19,7 +19,7 @@ body
 /* Book */
 .book
 {
-    border: 1px solid black;
+    /* border: 1px solid black;*/ /* get rid of borders after basic styling is done */
     position: relative;
     width: 350px;
     height: 500px;
@@ -27,12 +27,13 @@ body
 
 .paper
 {
-    border: 1px solid red;
+    /* border: 1px solid red; */ /* get rid of borders after basic styling is done */
     position: absolute; /* this feature allows more papers added to the book to overlap one after the other */
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    perspective: 1500px;
 }
 
 .front,
@@ -44,11 +45,15 @@ body
     height: 100%;
     top: 0;
     left: 0;
+    transform-origin: left;
+    transition: transform 5s;
 }
 
 .front
 {
     z-index: 1;   
+    backface-visibility: hidden;
+    border-left: 3px solid powderblue;
 }
 
 .back
@@ -62,7 +67,21 @@ body
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+/* fix the back content orientation */
+.back-content
+{
+    transform: rotateY(180deg);
+}
+
+/* Paper flip effect */
+.flipped .front,
+.flipped .back
+{
+    transform: rotateY(-180deg);
 }
 
 /* controller buttons */
@@ -87,5 +106,43 @@ button:hover i
 i
 {
     font-size: 50px;
-    
+    color: gray;
+}
+
+/* Paper stack order */
+#p1
+{
+    z-index: 9;
+}
+#p2
+{
+    z-index: 8;
+}
+#p3
+{
+    z-index: 7;
+}
+#p4
+{
+    z-index: 6;
+}
+#p5
+{
+    z-index: 5;
+}
+#p6
+{
+    z-index: 4;
+}
+#p7
+{
+    z-index: 3;
+}
+#p8
+{
+    z-index: 2;
+}
+#p9
+{
+    z-index: 1;
 }
