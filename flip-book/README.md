@@ -9,3 +9,5 @@
 ## I created the book layout;
 
 ## Add pages
+
+## styled the pages
