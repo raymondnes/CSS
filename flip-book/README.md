@@ -11,3 +11,5 @@
 ## Add pages
 
 ## styled the pages
+
+## couple of styles added
