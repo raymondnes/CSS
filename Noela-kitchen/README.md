@@ -2,7 +2,7 @@
 <br>
 <br>
 <div id="header" align="justify">
-  <img src="https://media.giphy.com/media/eUdtR10ZsxlFC/giphy.gif" width="1000" height="150"/>
+  <img src="https://media.giphy.com/media/EDV30lQQ9VW5q/giphy.gif" width="1000" height="150"/>
 </div>
 
 ## :fire: About Me<br>
