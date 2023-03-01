@@ -2,7 +2,7 @@
 <br>
 <br>
 <div id="header" align="justify">
-  <img src="https://media.giphy.com/media/EDV30lQQ9VW5q/giphy.gif" width="1000" height="150"/>
+  <img src="https://media.giphy.com/media/EDV30lQQ9VW5q/giphy.gif" width="1000" height="500"/>
 </div>
 
 ## :fire: About Me<br>
@@ -16,7 +16,7 @@
 ---
 
 ## :hammer_and_wrench: Materials and Steps
-###
+### Fixed the background image of the page
 ###
 ###
 ###
