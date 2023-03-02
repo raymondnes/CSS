@@ -40,7 +40,7 @@ function closeBook(isAtBeginning)
     {
         book.style.transform = "translateX(100%)";
     }
-    
+
     prevBtn.style.transform = "translateX(0px)";
     nextBtn.style.transform = "translateX(0px)";
 }
