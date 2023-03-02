@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="notice">
+        Your browser does not support the <code>accent-color</code> property.
+      </div>
+      
+      <form action="">
+        <fieldset>
+          <h2>Checkboxes</h2>
+          <div>
+            <label for="checkbox">
+              Default
+            </label>
+            <input id="checkbox" type="checkbox" checked>
+          </div>
+          <div>
+            <label for="checkbox-accent">
+              Accent
+            </label>
+            <input id="checkbox-accent" type="checkbox" class="accent" checked>
+          </div>
+        </fieldset>
+      
+        <fieldset>
+          <h2>Radio</h2>
+          <div>
+            <input id="radio" type="radio" checked>
+            <label for="radio">
+              Default
+            </label>
+          </div>
+          <div>
+            <input id="radio-accent" type="radio" class="accent" checked>
+            <label for="radio-accent">
+              Accent
+            </label>
+          </div>
+        </fieldset>
+      
+        <fieldset>
+          <h2>Progress</h2>
+          <div>
+            <label for="progress">
+              Default
+            </label>
+            <progress id="progress" min="0" max="100" value="50"></progress>
+          </div>
+          <div>
+            <label for="progress-accent">
+              Accent
+            </label>
+            <progress id="progress-accent" class="accent" min="0" max="100" value="50"></progress>
+          </div>
+        </fieldset>
+      
+        <fieldset>
+          <h2>Range</h2>
+          <div>
+            <label for="range">
+              Default
+            </label>
+            <input id="range" type="range">
+          </div>
+          <div>
+            <label for="range-accent">
+              Accent
+            </label>
+            <input id="range-accent" class="accent" type="range">
+          </div>
+        </fieldset>
+      </form>
+</body>
+</html>

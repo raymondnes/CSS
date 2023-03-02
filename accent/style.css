@@ -1,0 +1,73 @@
+body {
+    display: grid;
+    padding: 3rem 0;
+  }
+  
+  .accent {
+    accent-color: #30cc7e;
+  }
+  
+  form {
+    display: grid;
+    grid-auto-columns: fit-content(50%);
+    grid-template-areas: "a a";
+    margin: auto;
+    padding: 0;
+    gap: 1rem;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: auto;
+  }
+  
+  form section:first-child {
+    color-scheme: light;
+  }
+  form section:last-child {
+    color-scheme: dark;
+  }
+  
+  fieldset {
+    border-radius: 8px;
+    color-scheme: light;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .dark {
+    color-scheme: dark;
+  }
+  
+  .dark fieldset {
+    background: #100f33;
+    border-color: #100f33;
+    color: #fff;
+  }
+  
+  .dark .accent {
+    accent-color: hsla(180, 100%, 70%, 1);
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  .notice {
+    background: #fff9c4;
+    border-radius: 6px;
+    margin: 1.5rem auto;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  @supports (accent-color: #fff) {
+    .notice {
+      display: none;
+    }
+  }
