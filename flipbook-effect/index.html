@@ -6,9 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flip Book Effect</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.0/jquery.js" integrity="sha512-nNkL/Hm7+sunQxTlg6VXow/eXdMyJCzTltPgrUJEvtfAYk/i3AZ/ub46gIYdkV6YeoFXW8qfDkXRa1h9/txBiw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.0/jquery.min.js" integrity="sha512-e4WJV+b4BBNgVWODO1v6KU6xbZRf/9acSAWSc9B+q/OiSXt6Q3MPhxPOntoGGfA+zQPbnYjhXwWIuX4PPZCtzw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.js" integrity="sha512-brrjTp9G6MkKX5QjXwwAQkscfFpKi3okjyZ/M3vGwwg9qI1msoz7z+EbQBLXsTnVK3POjYBGHcQvX34GFKr/7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link src="css/style.css">
+    <script src="booklet/jquery.easing.1.3.js"></script>
 </head>
 <body>
+
+    <style>
+
+            *
+            {
+                margin: 0;
+                padding: 0;
+            }
+
+            body
+            {
+                background: orange;
+                color: #444;
+                font-size: 12px;
+                font-family: tahoma;
+            }
+
+            .booklet
+            {
+                width: 900px;
+                height: 507px;
+                margin: 0, auto;
+                position: relative;
+                box-shadow: 0px 0px 1px white;
+                border-radius: 10px;
+            }
+
+
+    </style>
     
     <div class="book_wrapper">
         <a id="next_page_button"></a>
