@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+       
+p
+{
+  	font-style: italic;
+	font-weight: bold;
+	font-size: 0.8em;
+	line-height: 1.2;
+	font-family: Arial, sans-serif;
+}
