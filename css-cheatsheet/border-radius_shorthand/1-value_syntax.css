@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+       
+div
+{
+	border-radius: 1em; /* This applies to all sides of the box */
+  	border-style: solid;
+  	border-color: brown;
+  	width: 200px;
+  	height: 100px;
+  	background-color: blue;
+}
