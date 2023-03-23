@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+       
+div
+{
+	border-width: 1em; /* All four sides of the box takes this width value */
+  	border-style: solid;
+  	border-color: brown;
+  	width: 200px;
+  	height: 100px;
+  	background-color: blue;
+}
+
