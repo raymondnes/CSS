@@ -4,7 +4,7 @@ body {
        
 div
 {
-	border-radius: 1em 2em; /* The top and bottom inherits the first value 1em, while the left and right side takes 2em */
+	border-radius: 1em 2em; /* The first value represents the top left and bottom right corner, the second the top right and bottom left ones */
   	border-style: solid;
   	border-color: brown;
   	width: 200px;
