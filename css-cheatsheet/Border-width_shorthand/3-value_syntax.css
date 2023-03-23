@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+       
+div
+{
+	border-width: 1em 2em 3em; /* Top takes 1em, let and right takes 2em and the bottom takes 3em border-width */
+  	border-style: solid;
+  	border-color: brown;
+  	width: 200px;
+  	height: 100px;
+  	background-color: blue;
+}
