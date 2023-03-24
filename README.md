@@ -1,2 +1,2 @@
 Cascading Style Sheet
-COmmon Functions
+Common Functions for CSS
