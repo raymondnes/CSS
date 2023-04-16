@@ -1,0 +1,61 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgba(127, 114, 114, 0.1);
+}
+
+main
+{
+    background-color: rgba(127, 114, 114, 0.25);
+    width: 70%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+h1
+{
+    margin: 10px auto;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.obama
+{
+    max-width: 1425px;
+    max-height: 1020px;
+    border-radius: 20px;
+    margin: 5px 10px 5px 120px;
+}
+
+img
+{
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.outlines
+{
+    width: 1000px;
+    height: 780px;
+    margin: auto;
+}
+
+.outlines > ul
+{
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: normal;
+}
+
+.outlines, li
+{
+    line-height: 1.5em;
+}
