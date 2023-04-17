@@ -8,6 +8,7 @@
 body
 {
     background-color: rgba(127, 114, 114, 0.1);
+    display: inline-block;
 }
 
 main
@@ -111,4 +112,27 @@ li:nth-child(8)
 li:nth-child(9)
 {
     margin: 30px;
+}
+
+.footnote
+{
+    width: 2000px;
+    height: 300px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footnote > img 
+{
+    margin: 10px;
+    border-radius: 50%;
+    width: 150px;
+}
+
+h3
+{
+    margin-left: 700px;
+    font-size: 25px;
 }
