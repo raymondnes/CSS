@@ -12,10 +12,11 @@ body
 
 main
 {
-    background-color: rgba(127, 114, 114, 0.25);
+    background-color: rgba(127, 114, 114, 0.18);
     width: 70%;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 20px;
+    border-radius: 10px;
 }
 
 h1
@@ -23,6 +24,7 @@ h1
     margin: 10px auto;
     font-size: 40px;
     font-family: sans-serif;
+    text-align: center;
 }
 
 .obama
@@ -30,20 +32,20 @@ h1
     max-width: 1425px;
     max-height: 1020px;
     border-radius: 20px;
-    margin: 5px 10px 5px 120px;
+    margin: 20px auto;
 }
 
 img
 {
-    margin: 10px auto;
-    width: 90%;
+    margin: auto;
+    width: 100%;
     border-radius: 10px;
 }
 
 .outlines
 {
-    width: 1000px;
-    height: 780px;
+    width: 1425px;
+    height: 748px;
     margin: auto;
 }
 
@@ -58,4 +60,55 @@ img
 .outlines, li
 {
     line-height: 1.5em;
+}
+
+span,strong,i,em
+{
+    color: navy;
+    font-size: 25px;
+}
+
+li:nth-child(1)
+{
+    margin: 30px;
+}
+
+li:nth-child(2)
+{
+    margin: 30px;
+}
+
+li:nth-child(3)
+{
+    margin: 30px;
+}
+
+li:nth-child(4)
+{
+    margin: 30px;
+}
+
+li:nth-child(5)
+{
+    margin: 30px;
+}
+
+li:nth-child(6)
+{
+    margin: 30px;
+}
+
+li:nth-child(7)
+{
+    margin: 30px;
+}
+
+li:nth-child(8)
+{
+    margin: 30px;
+}
+
+li:nth-child(9)
+{
+    margin: 30px;
 }
